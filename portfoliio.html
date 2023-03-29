@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Task-2</title>
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="styletask2.css">
+</head>
+
+<body>
+
+  <!--header section starts  -->
+  <header class="header">
+    <a href="#" class="logo" style="font-family: cursive;"><i class="fa fa-user"></i>Jujjavarapu RadhaRashmitha</a>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Skills</a>
+      <a href="#">Projects</a>
+    </nav>
+    <div class="icons">
+      <div class="fa fa-instagram" id="search-btn"></div>
+      <div class="fa fa-youtube" id="cart-btn"></div>
+      <div class="fa fa-linkedin" id="user-btn"></div>
+
+    </div>
+
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="myimg.jpg" style="height: 400px; width:400px " class="w-100">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+              I'm Web Development Designer.
+            </h1>
+
+            <p class="section-text">
+              Hello! I'm RadhaRashmitha. I’m very passionate
+              about the work that I do.
+            </p>
+
+            <div class="btn-wrapper">
+              <a href="#project" class="btn btn-secondary"> My Works</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div>
+              <h2 class="h2 section-title">My Skills</h2>
+            </div>
+
+            <ul class="progress-list">
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>HTML</p>
+                  <span class="span">90 %</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%;  background-color: #739ae1"></div>
+                </div>
+              </li>
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>CSS</p>
+                  <span class="span">85 %</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #76e2a8"></div>
+                </div>
+              </li>
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>JAVA SCRIPT</p>
+                  <span class="span">80 %</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%;  background-color: #e3a6b6" "></div>
+                </div>
+              </li>
+              <li class=" progress-item">
+                    <div class="label-wrapper">
+                      <p>bOOT STRAP</p>
+                      <span class="span">90 %</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-fill" style="width: 90%; background-color: #ad69f1"></div>
+                    </div>
+              </li>
+            </ul>
+          </div>
+          <ul class="grid-list">
+            <li data-reveal="bottom">
+              <div class="about-card">
+                <div class="card-icon">
+                  <img src="webdesignimg.jpg" width="170" height="52">
+                </div>
+                <h3 class="h4 card-title">Web Design</h3>
+                <p class="card-text">
+                  Web designing is a really important skill to have.
+                  This is because all web designers need a website or a blog to showcase their work.
+                  The internet is filled with thousands of web designers but not everyone can afford to hire a good web
+                  designer.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <center>
+        <section class="section project " id="project">
+          <div class="container">
+            <div class="title-wrapper" data-reveal="top">
+              <div>
+                <h2 class="h2 section-title" id="project-label" style="border: 2px solid skyblue;width:335px">My Projects</h2>
+              </div>
+            </div>
+            <ul class="grid-list">
+              <li>
+                <div class="project-card project-card-1" style="background-color: #f8f5fb">
+                  <div class="card-content">
+                    <p class="card-tag" style="color: #a07cc5">Web Design</p>
+                    <h3 class="h3 card-title" style="color:#d16b86;">Farming Website</h3>
+                    <p class="card-text">
+                      A web application for displaying items available at farmers.
+                    </p><br>
+                  </div>
+                  <figure class="card-banner">
+                    <img src="food.jpg" class="w-100" style="width: 520px; height:920px">
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div class="project-card project-card-2" style="background-color: #f1f5fd">
+                  <div class="card-content" data-reveal="right">
+                    <p class=" card-tag" style="color: #3f78e0">Web Design</p>
+                    <h3 class="h3 card-title">GIT API Project</h3>
+                    <p class="card-text">
+                      It will take the username of github and provide details of github account repositories
+                    </p>
+                  </div>
+                  <figure class="card-banner" data-reveal="left">
+                    <img src="Screenshot (16).png" style="width: 920px; height:920px" class="w-100">
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </center>
+    </article>
+  </main>
+</body>
+
+</html>
